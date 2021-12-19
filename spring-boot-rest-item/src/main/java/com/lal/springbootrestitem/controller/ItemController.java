@@ -1,18 +1,28 @@
 package com.lal.springbootrestitem.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
-@Controller
+
+import java.util.Date;
+
+import com.lal.springbootrestitem.entity.Item;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class ItemController {
 
-    @RequestMapping(value = "/items", method = RequestMethod.GET)
+    
+    @GetMapping("/items")
+    public Item getItem(){
 
-    @ResponseBody
-    public String getItem(){
-        return "items";
+        Item item = new Item();
+        item.setId(1);
+        item.setName("Table");
+        item.setDescription("Wooden tea table");
+        item.setCreated(new Date());
+        item.setUpdated(new Date());
+        return item;
     }
     
 }
