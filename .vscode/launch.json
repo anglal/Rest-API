@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootRestItemApplication<spring-boot-rest-item>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.lal.springbootrestitem.SpringBootRestItemApplication",
+            "projectName": "spring-boot-rest-item",
+            "args": ""
+        }
+    ]
+}
