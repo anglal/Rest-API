@@ -1,0 +1,5 @@
+package com.aza.bootapirestjpa.controller;
+
+public class LandingController {
+
+}
