@@ -1,3 +1,0 @@
-INDEX VERSION 1.4+/Users/lalangdembe/eclipse-workspace-springBoot/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-280340988.index
-1784908530.index
