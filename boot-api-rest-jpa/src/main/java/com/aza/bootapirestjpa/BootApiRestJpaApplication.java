@@ -8,7 +8,7 @@ public class BootApiRestJpaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BootApiRestJpaApplication.class, args);
-		
+
 	}
 
 }
